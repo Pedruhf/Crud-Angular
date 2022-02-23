@@ -1,0 +1,27 @@
+<div class="mat-elevation-z4 product-read-container">
+  <table>
+    <thead>
+      <tr>
+        <th *ngFor="let column of displayedColumns">
+          {{ column }}
+        </th>
+      </tr>
+    </thead>
+  
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{ product.id }}</td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.price | currency: "BRL" }}</td>
+        <td>
+          <a routerLink="/products/update/{{product.id}}" class="edit">
+            <i class="material-icons">edit</i>
+          </a>
+          <a routerLink="/products/delete/{{product.id}}" class="delete">
+            <i class="material-icons">delete</i>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

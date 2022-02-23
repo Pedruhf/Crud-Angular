@@ -1,0 +1,14 @@
+<mat-toolbar class="header mat-elevation-z4">
+  <span>
+    <a routerLink="/">
+      <img src="assets/images/angular-logo.png" alt="logo">
+    </a>
+  </span>
+
+  <span class="title-group">
+    <a routerLink="{{ headerData.routeUrl }}">
+      <i class="material-icons">{{ headerData.icon }}</i>
+    </a>
+    {{ headerData.title }}
+  </span>
+</mat-toolbar>

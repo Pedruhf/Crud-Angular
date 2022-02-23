@@ -1,14 +1,39 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC Preta",
-      "price": 1.5
+      "id": 2,
+      "name": "Notebook Mac",
+      "price": "12099"
     },
     {
-      "id": 2,
-      "name": "Notebook Mac 13 Pro",
-      "price": 12080
+      "name": "Citroen",
+      "price": "48000.00",
+      "id": 3
+    },
+    {
+      "name": "Bolsa Dell",
+      "price": "120.00",
+      "id": 4
+    },
+    {
+      "name": "Teclado Corsair",
+      "price": "450.00",
+      "id": 5
+    },
+    {
+      "name": "Cavaco Stringberg",
+      "price": "580.00",
+      "id": 6
+    },
+    {
+      "name": "Capa de celular",
+      "price": "12.00",
+      "id": 7
+    },
+    {
+      "name": "Fone Xiaomi Airdots 2",
+      "price": "119.90",
+      "id": 8
     }
   ]
 }

@@ -1,0 +1,38 @@
+.product-read-container {
+  padding: 0.75rem 0;
+  border-radius: 0.4rem;
+}
+
+table {
+  width: 100%;
+  border-radius: 0.5rem !important;
+}
+
+thead {
+  tr {
+    width: 100%;
+
+    th:first-child {
+      width: 5%;
+    }
+  }
+}
+
+tbody {
+  td {
+    text-align: center;
+    padding: 0.2rem 0;
+  }
+}
+
+.edit > i {
+  color: #d9cd26;
+}
+
+.delete {
+  margin-left: 1rem;
+
+  i {
+    color: #e35e6b;
+  }
+}
